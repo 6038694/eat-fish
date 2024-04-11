@@ -93,6 +93,16 @@ body {
     margin: 1rem 0;
 }
 
+.slideshow {
+    width: 50%;
+    margin: 0 auto;
+
+    & img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
 .featured .item img {
     max-width: 60%;
     margin: 1rem;
@@ -275,7 +285,9 @@ nav .menu a:hover {
 
 /*...........................*/
 /*....................RESERVEREN.......................*/
-.main {
+.reserven {
+    width: 75%;
+    margin: 0 auto;
     overflow-x: hidden;
 }
 

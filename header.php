@@ -7,10 +7,10 @@
     <nav>
         <div class="menu" id="menu" data-open="false">
             <a href="index.php">Home</a>
-            <a href="menu.php">Menu</a>
+            <a href="menu.php">Our Menu</a>
             <a href="about.php">About us</a>
             <a href="gallery.php">Gallery</a>
-            <a href="menukaart.php">Menukaart</a>
+            <a href="menukaart.php">Drinks</a>
             <a class="btn" href="reserveren.php">Reserveren</a>
         </div>
         <div class="burger-icon" id="burger-icon">

@@ -11,8 +11,6 @@
     <link rel="stylesheet" type="text/css" href="assets/base.css">
 </head>
 
-
-
 <body>
     <?php include 'header.php' ?>
 

@@ -17,10 +17,8 @@
 
 <body>
     <?php include 'header.php' ?>
-
-    <main id="main">
+    <main class="reserven">
         <h2>Reserveren</h2>
-
         <div class="field">
             <h3>Aantal mensen</h3>
             <div class="grid_container">
