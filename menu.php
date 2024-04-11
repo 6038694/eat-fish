@@ -12,52 +12,63 @@
 
 </head>
 
-
-
 <body>
     <?php include 'header.php' ?>
+
+    <?php
+    $items = array(
+        array(
+            "img" => "assets/img/fish.jpg",
+            "title" => "Fishhmix (vanaf 2)",
+            "description" => "Stel je voor: een gastronomisch avontuur waarbij je niet langer hoeft te kiezen tussen verschillende visgerechten. Bij Eat-Fish hebben we de perfecte oplossing voor jou - onze heerlijke vismix! Geniet van een smaakvolle selectie van de beste vissoorten, perfect bereid en samengebracht op één bord.",
+            "price" => "55€"
+        ),
+        array(
+            "img" => "assets/img/shrimp.jpg",
+            "title" => "Gernalen",
+            "description" => "Verlies jezelf in de rijke smaken van onze smeuïge garnaalcurry. Sappige garnalen, doordrenkt met kruiden en langzaam gekookt in een romige saus van kokosmelk en exotische specerijen. Elke hap is een verrukking voor de zintuigen, een culinaire reis naar de kusten van het Verre Oosten. Serveer met rijst voor een onvergetelijke smaakbeleving.",
+            "price" => "25€"
+        ),
+        array(
+            "img" => "assets/img/indische-vis-2.webp",
+            "title" => "Indische Vis met rijst",
+            "description" => "Ontdek de betoverende smaken van onze Indiase vis curry, verrijkt met exotische specerijen en verse vis, geserveerd met geurige basmati rijst. Een culinaire reis naar verre oorden, waar elke hap een explosie van smaken is.",
+            "price" => "18€"
+        ),
+        array(
+            "img" => "assets/img/Zee-Schotel.webp",
+            "title" => "Vis Schotel",
+            "description" => "Een hemelse combinatie van sappige garnalen, mollige mosselen en delicate krab, badend in een romige saus van knoflook, witte wijn en citroen, geserveerd met al dente pasta. Een smaakvolle reis naar de zee in één hap.",
+            "price" => "28€"
+        ),
+        array(
+            "img" => "assets/img/Garnalenspiesjes.jpg",
+            "title" => "Gernalen spies",
+            "description" => "Laat je verleiden door onze sappige garnaalspiesjes, perfect gegrild en doordrenkt met een geheime marinade. Een heerlijke traktatie voor elke gelegenheid, waarbij elke hap een explosie van smaak belooft.",
+            "price" => "20€"
+        )
+    );
+    ?>
+
+
+
     <div class="featured">
         <h1>Menu</h1>
-        <div class="item">
-            <img src="assets/img/fish.jpg">
-            <div class="spacer">
-                <h2>Fishhmix (vanaf 2)</h2>
-                <p>Stel je voor: een gastronomisch avontuur waarbij je niet langer hoeft te kiezen tussen verschillende visgerechten. Bij Eat-Fish hebben we de perfecte oplossing voor jou - onze heerlijke vismix! Geniet van een smaakvolle selectie van de beste vissoorten, perfect bereid en samengebracht op één bord.</p>
-                <h4>55€</h4>
-            </div>
-        </div>
-        <div class="item reversed">
-            <img src="assets/img/shrimp.jpg">
-            <div class="spacer">
-                <h3>Gernalen</h3>
-                <p>Verlies jezelf in de rijke smaken van onze smeuïge garnaalcurry. Sappige garnalen, doordrenkt met kruiden en langzaam gekookt in een romige saus van kokosmelk en exotische specerijen. Elke hap is een verrukking voor de zintuigen, een culinaire reis naar de kusten van het Verre Oosten. Serveer met rijst voor een onvergetelijke smaakbeleving.</p>
-                <h4>25€</h4>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/img/indische-vis-2.webp">
-            <div class="spacer">
-                <h3>Indische Vis met rijst</h3>
-                <p>Ontdek de betoverende smaken van onze Indiase vis curry, verrijkt met exotische specerijen en verse vis, geserveerd met geurige basmati rijst. Een culinaire reis naar verre oorden, waar elke hap een explosie van smaken is.</p>
-                <h4>18€</h4>
-            </div>
-        </div>
-        <div class="item reversed">
-            <img src="assets/img/Zee-Schotel.webp">
-            <div class="spacer">
-                <h3>Vis Schotel</h3>
-                <p>Een hemelse combinatie van sappige garnalen, mollige mosselen en delicate krab, badend in een romige saus van knoflook, witte wijn en citroen, geserveerd met al dente pasta. Een smaakvolle reis naar de zee in één hap.</p>
-                <h4>28€</h4>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/img/Garnalenspiesjes.jpg">
-            <div class="spacer">
-                <h3>Gernalen spies</h3>
-                <p>Laat je verleiden door onze sappige garnaalspiesjes, perfect gegrild en doordrenkt met een geheime marinade. Een heerlijke traktatie voor elke gelegenheid, waarbij elke hap een explosie van smaak belooft.</p>
-                <h4>20€</h4>
-            </div>
-        </div>
+        <?php
+        $index = 0;
+        foreach ($items as $item) {
+            $class = ($index % 2 == 0) ? "reversed" : "";
+            echo '<div class="item ' . $class . '">';
+            echo '<img src="' . $item["img"] . '">';
+            echo '<div class="spacer">';
+            echo '<h2>' . $item["title"] . '</h2>';
+            echo '<p>' . $item["description"] . '</p>';
+            echo '<h4>' . $item["price"] . '</h4>';
+            echo '</div>';
+            echo '</div>';
+            $index++;
+        }
+        ?>
     </div>
 
 </body>

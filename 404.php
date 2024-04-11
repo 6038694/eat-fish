@@ -11,7 +11,7 @@
 
     <main id="main404">
         <h2>This Page was not Found!</h2>
-        <a class="homes" href="/">Go Home</a>
+        <a class="homes" href="index.php">Go Home</a>
     </main>
 
     <?php include 'footer.php' ?>

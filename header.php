@@ -3,7 +3,6 @@
 </head>
 
 <header>
-
     <img class="logo" src="assets/img/Logo.png" alt="Logo">
     <nav>
         <div class="menu" id="menu" data-open="false">
@@ -11,8 +10,8 @@
             <a href="menu.php">Menu</a>
             <a href="about.php">About us</a>
             <a href="gallery.php">Gallery</a>
+            <a href="menukaart.php">Menukaart</a>
             <a class="btn" href="reserveren.php">Reserveren</a>
-
         </div>
         <div class="burger-icon" id="burger-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
