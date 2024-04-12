@@ -93,7 +93,7 @@ body {
     margin: 1rem 0;
 }
 
-.slideshow {
+.menuslideshow {
     width: 50%;
     margin: 0 auto;
 
@@ -103,7 +103,7 @@ body {
     }
 }
 
-.featured .item img {
+.menuslid .item img {
     max-width: 60%;
     margin: 1rem;
     aspect-ratio: 16/9;
@@ -111,7 +111,7 @@ body {
     object-fit: cover;
 }
 
-.featured {
+.menuslid {
     display: grid;
     justify-items: center;
     margin: 4rem auto;
@@ -129,9 +129,9 @@ body {
     margin: 1rem 0;
 }
 
-.featured .item img {
+.menuslid .item img {
     margin: 1rem;
-    width: 100%;
+    width: 50%;
     aspect-ratio: 16/9;
     border-radius: 1rem;
     object-fit: cover;
@@ -185,13 +185,14 @@ footer svg:hover {
 header {
     padding: 2rem 4rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo {
-    width: 10%;
+    width: 25%;
     object-fit: cover;
 }
 
@@ -199,10 +200,17 @@ nav {
     position: relative;
 }
 
-nav .menu a {
+.menu {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(max-content, 100px));
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    align-items: center;
+    place-content: end;
+}
 
-    justify-content: center;
+.menu a {
+    text-align: center;
     font-size: large;
     font-weight: 600;
     color: black;
@@ -212,13 +220,6 @@ nav .menu a {
 nav .menu a:hover {
     opacity: 75%;
     transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.menu {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr;
-    align-items: center;
 }
 
 .burger-icon {
@@ -240,15 +241,20 @@ nav .menu a:hover {
     scale: 1.1;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .logo {
-        width: 40%;
-        object-fit: cover;
+        width: 25%;
+        min-width: 64px;
     }
 
     .burger-icon {
+        width: 100%;
         display: grid;
         justify-items: end;
+    }
+
+    .burger-icon svg {
+        width: 32px;
     }
 
     header nav .menu {
@@ -428,3 +434,22 @@ button {
 }
 
 /*..........................*/
+
+
+.vacature {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.aboutyou {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.aboutyou textarea {
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 1rem;
+}

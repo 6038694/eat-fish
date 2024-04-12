@@ -11,6 +11,7 @@
             <a href="about.php">About us</a>
             <a href="gallery.php">Gallery</a>
             <a href="menukaart.php">Drinks</a>
+            <a href="Vacature.php">Vacature</a>
             <a class="btn" href="reserveren.php">Reserveren</a>
         </div>
         <div class="burger-icon" id="burger-icon">

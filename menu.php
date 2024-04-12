@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="assets/base.css">
 </head>
 
+
 <body>
     <?php include 'header.php' ?>
 
@@ -42,14 +43,14 @@
             "title" => "Vis Schotel",
             "description" => "Een hemelse combinatie van sappige garnalen, mollige mosselen en delicate krab, badend in een romige saus van knoflook, witte wijn en citroen, geserveerd met al dente pasta. Een smaakvolle reis naar de zee in één hap.",
             "price" => "28€",
-            "vega" => "no"
+            "vega" => "optional"
         ),
         array(
             "img" => "assets/img/Garnalenspiesjes.jpg",
             "title" => "Gernalen spies",
             "description" => "Laat je verleiden door onze sappige garnaalspiesjes, perfect gegrild en doordrenkt met een geheime marinade. Een heerlijke traktatie voor elke gelegenheid, waarbij elke hap een explosie van smaak belooft.",
             "price" => "20€",
-            "vega" => "yes"
+            "vega" => "optional"
         )
     );
 
@@ -58,10 +59,10 @@
     echo '</script>';
     ?>
 
-    <div class="featured slideshow">
+    <div class="menuslideshow">
 
     </div>
-    <div class="featured">
+    <div class="menuslid">
         <h1>Menu</h1>
         <?php
         $index = 0;

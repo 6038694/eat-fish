@@ -69,13 +69,11 @@
 
         .cola img {
             max-width: 200px;
-            margin-left: 10px;
+            margin-left: 400px;
         }
 
-        .fanta img {
-            max-width: 200px;
-            margin-left: 10px;
-        }
+
+
 
         .cola {
             display: flex;
@@ -83,12 +81,7 @@
             justify-content: space-between;
         }
 
-        .fanta {
-            display: flex;
-            margin-right: 500px;
-            flex-direction: row;
-            display: inline-flex;
-        }
+
 
         .price {
             display: flex;
@@ -101,6 +94,7 @@
 <body>
     <?php include 'header.php' ?>
     <main id="menukaart">
+
         <div>
             <h1 class="drink">DRINKS</h1>
 
@@ -128,7 +122,7 @@
 
                 </div>
                 <div>
-                    <div class="fanta">
+                    <div class="cola">
                         <h1>Fanta</h1>
                         <img class="cola" src="assets/img/Fanta-original.png">
                     </div>
@@ -138,8 +132,9 @@
                             <p>€3,00 </p>
 
                         </div>
-                        <div class="fanta">
-                            <h1>Fanta Zero</h1> <img class="cola3" src="assets/img/fanta-zero.jpg">
+                        <div class="cola">
+                            <h1>Fanta Zero</h1>
+                            <img class="cola" src="assets/img/fanta-zero.jpg">
                         </div>
                         <div>
                             <div class="price">
