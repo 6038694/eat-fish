@@ -139,8 +139,7 @@
                         </div>
                         <div>
                             <div class="price">
-                                <p> incl 0,15 statiegeld </p>
-                                <p>€3,00 </p>
+                                <p> incl 0,15 statiegeld |€3,00 </p>
                             </div>
                         </div>
 
