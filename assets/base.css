@@ -453,3 +453,58 @@ button {
     padding: 1rem;
     border-radius: 1rem;
 }
+
+
+/*menukaart*/
+
+
+@media only screen and (max-width: 768px) {
+    #menukaart {
+        margin-top: 50px;
+    }
+
+    .cola {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .cola h1 {
+        margin-right: 10px;
+    }
+
+    .cola img {
+        max-width: 100px;
+    }
+}
+
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+
+#menukaart {
+    margin-left: 100px;
+}
+
+.drink {
+    border-bottom: 5px solid black;
+}
+
+.cola img {
+    max-width: 50px;
+}
+
+.cola {
+    display: flex;
+    max-width: 1000x;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}

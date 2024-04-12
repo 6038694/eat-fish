@@ -51,7 +51,7 @@
 
             <div class="aboutyou">
                 <h4>About you</h4>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Talk about yourself"></textarea>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Vertel me wat over jezelf"></textarea>
             </div>
 
         </div>

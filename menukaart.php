@@ -9,87 +9,7 @@
     <meta name="keywords" content="vis, gerechten, eten, restaurant, menu">
     <title>Eat-Fish | Official Website</title>
     <link rel="stylesheet" type="text/css" href="assets/base.css">
-    <style>
-        @media only screen and (max-width: 768px) {
-            #menukaart {
-                margin-top: 50px;
-                max-width: 150px;
-                display: flex;
-                flex-wrap: wrap;
-            }
 
-            .cola {
-                display: flex;
-                max-width: 250px;
-                align-items: center;
-                flex-direction: column-reverse;
-            }
-
-            .cola h1 {
-                display: flex;
-                margin-right: 10px;
-                flex-direction: row;
-                display: inline-flex;
-            }
-
-            .cola p {
-                margin-top: 10px;
-            }
-
-            body {
-                overflow-x: hidden;
-            }
-
-            .price {
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 2px solid black;
-            }
-        }
-
-        #menukaart {
-            margin-top: 50px;
-            margin-left: 250px;
-        }
-
-        .drink {
-            border-bottom: 5px solid black;
-        }
-
-        .cola h1 {
-            display: flex;
-            margin-right: 10px;
-            flex-direction: row;
-            display: inline-flex;
-        }
-
-        .cola p {
-            margin-top: 10px;
-
-        }
-
-        .cola img {
-            max-width: 200px;
-            margin-left: 400px;
-        }
-
-
-
-
-        .cola {
-            display: flex;
-            margin-right: 500px;
-            justify-content: space-between;
-        }
-
-
-
-        .price {
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 2px solid black;
-        }
-    </style>
 </head>
 
 <body>
@@ -102,49 +22,106 @@
 
             <div class="cola">
                 <h1>Coca-cola</h1>
-                <img class="cola" src="assets/img/cola-original.jpg">
+                <img src="assets/img/cola-original.jpg">
+
+            </div>
+            <div class="price">
+                <p> incl 0,15 statiegeld | €3,00</p>
+
+            </div>
+            <div class="cola">
+                <h1>Coca-Cola Zero</h1>
+                <img class="cola" src="assets/img/cola-zero.webp">
+            </div>
+        </div>
+        <div>
+            <div class="price">
+                <p> incl 0,15 statiegeld | €3,00</p>
+
 
             </div>
             <div>
-                <div class="price">
-                    <p> incl 0,15 statiegeld | €3,00</p>
-
-                </div>
                 <div class="cola">
-                    <h1>Coca-Cola Zero</h1>
-                    <img class="cola" src="assets/img/cola-zero.webp">
-                </div>
-            </div>
-            <div>
-                <div class="price">
-                    <p> incl 0,15 statiegeld | €3,00</p>p>
-
-
+                    <h1>Fanta</h1>
+                    <img class="cola" src="assets/img/Fanta-original.png">
                 </div>
                 <div>
+                    <div class="price">
+                        <p> incl 0,15 statiegeld | €3,00</p>
+
+                    </div>
                     <div class="cola">
-                        <h1>Fanta</h1>
-                        <img class="cola" src="assets/img/Fanta-original.png">
+                        <h1>Fanta Zero</h1>
+                        <img class="cola" src="assets/img/fanta-zero.jpg">
                     </div>
                     <div>
                         <div class="price">
                             <p> incl 0,15 statiegeld | €3,00</p>
+                        </div>
+                    </div>
+                    <div class="cola">
+                        <h1>Ice Tea Green</h1>
+                        <img class="cola" src="assets/img/ice-tea-green.jpg">
+                    </div>
+                    <div>
+                        <div class="price">
+                            <p> incl 0,15 statiegeld | €3,00</p>
+                        </div>
+                    </div>
 
+                    <div class="cola">
+                        <h1>Ice Tea Green Zero</h1>
+                        <img class="cola" src="assets/img/ice-tea-green-zero.jpg">
+                    </div>
+                    <div>
+                        <div class="price">
+                            <p> incl 0,15 statiegeld | €3,00</p>
                         </div>
-                        <div class="cola">
-                            <h1>Fanta Zero</h1>
-                            <img class="cola" src="assets/img/fanta-zero.jpg">
+                    </div>
+
+                    <div class="cola">
+                        <h1>Ice Tea Peach</h1>
+                        <img class="cola" src="assets/img/ice-tea-peach.avif">
+                    </div>
+                    <div>
+                        <div class="price">
+                            <p> incl 0,15 statiegeld | €3,00</p>
                         </div>
-                        <div>
-                            <div class="price">
-                                <p> incl 0,15 statiegeld | €3,00</p>
-                            </div>
+                    </div>
+
+                    <div class="cola">
+                        <h1>Ice Tea Peach Zero</h1>
+                        <img class="cola" src="assets/img/ice-tea-peach-zero.jpg">
+                    </div>
+                    <div>
+                        <div class="price">
+                            <p> incl 0,15 statiegeld | €3,00</p>
                         </div>
+                    </div>
+                    <div class="cola">
+                        <h1>heineken</h1>
+                        <img class="cola" src="assets/img/heineken.jpg">
+                    </div>
+                    <div>
+                        <div class="price">
+                            <p>€5,00</p>
+                        </div>
+                    </div>
+                    <div class="cola">
+                        <h1>Witte Wijn</h1>
+                        <img class="cola" src="assets/img/Klein-avontuur-wit.jpg">
+                    </div>
+                    <div>
+                        <div class="price">
+                            <p>€3,00</p>
+                        </div>
+                    </div>
+
 
 
 
     </main>
-
+    <?php include 'footer.php' ?>
 </body>
 
 </html>
