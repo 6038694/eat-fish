@@ -59,10 +59,10 @@
     echo '</script>';
     ?>
 
-    <div class="menuslideshow">
+    <div class="slideshow">
 
     </div>
-    <div class="menuslid">
+    <div class="featured">
         <h1>Menu</h1>
         <?php
         $index = 0;
