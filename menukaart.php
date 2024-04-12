@@ -65,6 +65,7 @@
 
         .cola p {
             margin-top: 10px;
+
         }
 
         .cola img {
