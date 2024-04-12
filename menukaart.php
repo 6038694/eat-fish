@@ -113,7 +113,7 @@
                     </div>
                     <div>
                         <div class="price">
-                            <p>€3,00</p>
+                            <p>€8,00</p>
                         </div>
                     </div>
 

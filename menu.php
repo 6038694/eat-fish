@@ -22,35 +22,35 @@
             "title" => "Fishhmix vanaf 2",
             "description" => "Stel je voor: een gastronomisch avontuur waarbij je niet langer hoeft te kiezen tussen verschillende visgerechten. Bij Eat-Fish hebben we de perfecte oplossing voor jou - onze heerlijke vismix! Geniet van een smaakvolle selectie van de beste vissoorten, perfect bereid en samengebracht op één bord.",
             "price" => "55€",
-            "vega" => "no"
+            "vega" => "Nee"
         ),
         array(
             "img" => "assets/img/shrimp.jpg",
             "title" => "Gernalen",
             "description" => "Verlies jezelf in de rijke smaken van onze smeuïge garnaalcurry. Sappige garnalen, doordrenkt met kruiden en langzaam gekookt in een romige saus van kokosmelk en exotische specerijen. Elke hap is een verrukking voor de zintuigen, een culinaire reis naar de kusten van het Verre Oosten. Serveer met rijst voor een onvergetelijke smaakbeleving.",
             "price" => "25€",
-            "vega" => "no"
+            "vega" => "Nee"
         ),
         array(
             "img" => "assets/img/indische-vis-2.webp",
             "title" => "Indische Vis met rijst",
             "description" => "Ontdek de betoverende smaken van onze Indiase vis curry, verrijkt met exotische specerijen en verse vis, geserveerd met geurige basmati rijst. Een culinaire reis naar verre oorden, waar elke hap een explosie van smaken is.",
             "price" => "18€",
-            "vega" => "no"
+            "vega" => "Nee"
         ),
         array(
             "img" => "assets/img/Zee-Schotel.webp",
             "title" => "Vis Schotel",
             "description" => "Een hemelse combinatie van sappige garnalen, mollige mosselen en delicate krab, badend in een romige saus van knoflook, witte wijn en citroen, geserveerd met al dente pasta. Een smaakvolle reis naar de zee in één hap.",
             "price" => "28€",
-            "vega" => "optional"
+            "vega" => "Mogelijk"
         ),
         array(
             "img" => "assets/img/Garnalenspiesjes.jpg",
             "title" => "Gernalen spies",
             "description" => "Laat je verleiden door onze sappige garnaalspiesjes, perfect gegrild en doordrenkt met een geheime marinade. Een heerlijke traktatie voor elke gelegenheid, waarbij elke hap een explosie van smaak belooft.",
             "price" => "20€",
-            "vega" => "optional"
+            "vega" => "Mogelijk"
         )
     );
 

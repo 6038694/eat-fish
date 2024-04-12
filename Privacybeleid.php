@@ -11,41 +11,12 @@
     <link rel="stylesheet" type="text/css" href="assets/base.css">
 </head>
 
-<style>
-    main {
-        display: grid;
-        justify-items: center;
-        gap: 3rem;
-        margin-top: 2rem;
-    }
 
-    h1 {
-        margin: 3rem 0;
-    }
-
-    .home {
-        width: max-content;
-        color: white;
-        text-decoration: none;
-        font-weight: 700;
-
-        color: #38bdf8;
-        padding: 1rem 2rem;
-        border-radius: .5rem;
-
-        cursor: pointer;
-    }
-
-    .privacyy {
-        padding: 0 2rem;
-        max-width: 1000px;
-    }
-</style>
 
 <body>
 
 
-    <main>
+    <main class="privacymain">
         <a class="home" id="backbutton" onclick="history.go(-1)">
             < Go Back</a>
 

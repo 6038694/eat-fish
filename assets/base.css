@@ -508,3 +508,31 @@ button {
     justify-content: space-between;
     border-bottom: 2px solid black;
 }
+
+
+.privacymain {
+    display: grid;
+    justify-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+
+
+.home {
+    width: max-content;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+    color: #38bdf8;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+
+    cursor: pointer;
+}
+
+.privacyy {
+    padding: 0 2rem;
+    max-width: 1000px;
+}
